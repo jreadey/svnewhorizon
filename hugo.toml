@@ -1,0 +1,4 @@
+baseURL = 'https://svnewhorizon.space/'
+locale = 'en-us'
+title = 'SV New Horizon'
+theme = 'ananke'

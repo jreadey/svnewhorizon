@@ -1,0 +1,12 @@
+node_modules
+public
+.hugo_build.lock
+resources/_gen
+todo*.md
+
+# wireit
+.wireit
+
+# Local project-management working files
+/PROJECT.md
+/TODO.md
