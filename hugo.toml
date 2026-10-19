@@ -1,4 +1,54 @@
 baseURL = 'https://svnewhorizon.space/'
 locale = 'en-us'
 title = 'SV New Horizon'
-theme = 'ananke'
+description = "John and Rong sailing adventures on a Fountaine Pajot Tanna 47"
+defaultContentLanguage = "en"
+defaultContentLanguageInSubdir = false
+# theme = 'ananke'
+# theme = 'hugo-PaperMod'
+
+[params.profileMode]
+  enabled = true
+  title = "Voyages of New Horizon"
+  subtitle = "Travel adventures on our FP Tanna 47 Catamaran"
+  imageUrl = "images/sv_new_horizon.jpg"  # Path relative to static/ or assets/
+  imageWidth = 120
+  imageHeight = 120
+
+  [[params.profileMode.buttons]]
+    name = "Posts"
+    url = "posts"
+
+[params.assets]
+  favicon = "/favicon.ico"
+  favicon16x16 = "/favicon-16x16.png"
+  favicon32x32 = "/favicon-32x32.png"
+  apple_touch_icon = "/apple-touch-icon.png"
+
+#[languages]
+#  [languages.en]
+#    languageName = "English"
+#    weight = 1
+#    title = "New Horizon Sailing Log"
+#    [languages.en.params]
+#      subtitle = "Sailing the Mediterranean & Beyond"
+
+#  [languages.zh]
+#    languageName = "中文"
+#    weight = 2
+#    title = "New Horizon 航海日志"
+#    [languages.zh.params]
+#      subtitle = "地中海及远洋航行日志"
+
+[module]
+  [[module.imports]]
+    path = "github.com/adityatelange/hugo-PaperMod"
+    disable = false
+
+[deployment]
+  invalidateCDN = true
+
+[[deployment.targets]]
+  name = "production"
+  URL = "s3://sv-new-horizon?region=us-east-1"
+  cloudFrontDistributionID = "E1234567890ABC"

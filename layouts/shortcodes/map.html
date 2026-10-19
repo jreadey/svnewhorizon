@@ -1,0 +1,55 @@
+<!-- Leaflet CSS CDN -->
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin=""/>
+
+<!-- Leaflet JS CDN -->
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+
+{{ $caption := .Get "caption" }}
+{{ if $caption }}<figure>{{ end }}
+<!-- Unique container for this map instance -->
+<div id="map-{{ .Ordinal }}" style="height: 450px; width: 100%; border-radius: 8px; margin: 20px 0;"></div>
+{{ if $caption }}<figcaption><p>{{ $caption | markdownify }}</p></figcaption></figure>{{ end }}
+
+{{ $file := .Get "file" }}
+{{ if $file }}
+{{ with .Page.Resources.Get $file }}
+<!-- Leaflet GPX plugin CDN -->
+<script src="https://unpkg.com/leaflet-gpx@2.1.2/gpx.js"></script>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    var map = L.map('map-{{ $.Ordinal }}');
+
+    L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        maxZoom: 19,
+        attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+    }).addTo(map);
+
+    new L.GPX("{{ .RelPermalink }}", {
+      async: true
+    }).on('loaded', function(e) {
+      map.fitBounds(e.target.getBounds());
+    }).addTo(map);
+  });
+</script>
+{{ else }}
+<p><em>Map error: could not find resource "{{ $file }}" in this page bundle.</em></p>
+{{ end }}
+{{ else }}
+<!-- Leaflet Initialization: single marker -->
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    // .Ordinal ensures unique IDs if you put multiple maps on one page
+    var map = L.map('map-{{ .Ordinal }}').setView([{{ .Get "lat" }}, {{ .Get "lng" }}], {{ .Get "zoom" }});
+
+    L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        maxZoom: 19,
+        attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+    }).addTo(map);
+
+    L.marker([{{ .Get "lat" }}, {{ .Get "lng" }}]).addTo(map)
+      .bindPopup("<b>{{ .Get "title" }}</b>")
+      .openPopup();
+  });
+</script>
+{{ end }}
