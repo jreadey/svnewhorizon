@@ -1,0 +1,49 @@
+{
+  "start": {
+    "time": "2026-04-10T10:47:14Z",
+    "lat": 36.13509,
+    "lon": -5.35486
+  },
+  "end": {
+    "time": "2026-10-18T17:18:16Z",
+    "lat": 37.05889,
+    "lon": 15.28229
+  },
+  "passage_hours": 4590.52,
+  "distance_nm": 2827.2,
+  "straight_line_nm": 994.4,
+  "avg_speed_kts": 0.6,
+  "avg_speed_underway_kts": 3.4,
+  "status_breakdown": [
+    {
+      "status": "Sailing",
+      "hours": 623.61,
+      "percent": 13.6,
+      "color": "#1a9850"
+    },
+    {
+      "status": "Motoring",
+      "hours": 199.98,
+      "percent": 4.4,
+      "color": "#2166ac"
+    },
+    {
+      "status": "Motor-Sailing",
+      "hours": 1.12,
+      "percent": 0.0,
+      "color": "#f46d43"
+    },
+    {
+      "status": "Anchored",
+      "hours": 2111.84,
+      "percent": 46.0,
+      "color": "#6a51a3"
+    },
+    {
+      "status": "Docked",
+      "hours": 1653.98,
+      "percent": 36.0,
+      "color": "#666666"
+    }
+  ]
+}

@@ -1,8 +1,11 @@
+{{ if not ($.Page.Store.Get "mapAssetsLoaded") }}
 <!-- Leaflet CSS CDN -->
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin=""/>
 
 <!-- Leaflet JS CDN -->
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+{{ $.Page.Store.Set "mapAssetsLoaded" true }}
+{{ end }}
 
 {{ $caption := .Get "caption" }}
 {{ if $caption }}<figure>{{ end }}
@@ -13,9 +16,9 @@
 {{ $file := .Get "file" }}
 {{ if $file }}
 {{ with .Page.Resources.Get $file }}
-<!-- Leaflet GPX plugin CDN -->
-<script src="https://unpkg.com/leaflet-gpx@2.1.2/gpx.js"></script>
-
+<!-- Route rendering: parse the GPX ourselves so each <trk> can be drawn in
+     its own color (from a gpxx:DisplayColor extension, if present), with
+     no default start/end markers cluttering sparsely-logged tracks. -->
 <script>
   document.addEventListener("DOMContentLoaded", function() {
     var map = L.map('map-{{ $.Ordinal }}');
@@ -25,11 +28,35 @@
         attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
     }).addTo(map);
 
-    new L.GPX("{{ .RelPermalink }}", {
-      async: true
-    }).on('loaded', function(e) {
-      map.fitBounds(e.target.getBounds());
-    }).addTo(map);
+    fetch("{{ .RelPermalink }}")
+      .then(function(res) { return res.text(); })
+      .then(function(text) {
+        var xml = new DOMParser().parseFromString(text, "text/xml");
+        var tracks = xml.getElementsByTagNameNS("*", "trk");
+        var bounds = [];
+        var defaultColor = "#2166ac";
+
+        for (var i = 0; i < tracks.length; i++) {
+          var trk = tracks[i];
+          var colorEls = trk.getElementsByTagNameNS("*", "DisplayColor");
+          var color = colorEls.length ? colorEls[0].textContent : defaultColor;
+          var pts = trk.getElementsByTagNameNS("*", "trkpt");
+          var latlngs = [];
+
+          for (var j = 0; j < pts.length; j++) {
+            var lat = parseFloat(pts[j].getAttribute("lat"));
+            var lon = parseFloat(pts[j].getAttribute("lon"));
+            latlngs.push([lat, lon]);
+            bounds.push([lat, lon]);
+          }
+
+          L.polyline(latlngs, { color: color, weight: 4 }).addTo(map);
+        }
+
+        if (bounds.length > 0) {
+          map.fitBounds(bounds);
+        }
+      });
   });
 </script>
 {{ else }}

@@ -1,0 +1,62 @@
+{{ $file := .Get "file" }}
+{{ $caption := .Get "caption" }}
+{{ with .Page.Resources.Get $file }}
+{{ if $caption }}<figure>{{ end }}
+<div id="passage-stats-{{ $.Ordinal }}" class="passage-stats" style="border: 1px solid var(--border); background: var(--entry); border-radius: 8px; padding: 20px; margin: 20px 0;">
+  <div style="color: var(--secondary);">Loading passage stats&hellip;</div>
+</div>
+{{ if $caption }}<figcaption><p>{{ $caption | markdownify }}</p></figcaption></figure>{{ end }}
+
+<script>
+(function() {
+  function formatHours(hours) {
+    var h = Math.floor(hours);
+    var m = Math.round((hours - h) * 60);
+    if (m === 60) { h += 1; m = 0; }
+    return h + 'h ' + (m < 10 ? '0' : '') + m + 'm';
+  }
+
+  function statTile(label, value) {
+    return '<div style="text-align:center; min-width:110px;">' +
+      '<div style="font-size:1.4em; font-weight:600;">' + value + '</div>' +
+      '<div style="font-size:0.78em; color:var(--secondary); text-transform:uppercase; letter-spacing:0.04em; margin-top:2px;">' + label + '</div>' +
+    '</div>';
+  }
+
+  fetch("{{ .RelPermalink }}")
+    .then(function(res) { return res.json(); })
+    .then(function(data) {
+      var el = document.getElementById("passage-stats-{{ $.Ordinal }}");
+
+      var tilesHtml =
+        '<div style="display:flex; flex-wrap:wrap; gap:16px; justify-content:space-around; margin-bottom:18px;">' +
+          statTile('Distance', data.distance_nm.toFixed(1) + ' nm') +
+          statTile('Passage Time', formatHours(data.passage_hours)) +
+          statTile('Avg Speed', data.avg_speed_underway_kts.toFixed(1) + ' kts') +
+          statTile('Start → End', data.straight_line_nm.toFixed(1) + ' nm') +
+        '</div>';
+
+      var barHtml = '<div style="display:flex; height:10px; border-radius:5px; overflow:hidden; margin-bottom:10px;">';
+      data.status_breakdown.forEach(function(s) {
+        barHtml += '<div style="width:' + s.percent + '%; background:' + s.color + ';" title="' + s.status + ': ' + s.percent + '%"></div>';
+      });
+      barHtml += '</div>';
+
+      var legendHtml = '<div style="display:flex; flex-wrap:wrap; gap:14px; font-size:0.82em; color:var(--secondary);">';
+      data.status_breakdown.forEach(function(s) {
+        legendHtml += '<span><span style="display:inline-block; width:10px; height:10px; border-radius:2px; background:' + s.color + '; margin-right:5px; vertical-align:middle;"></span>' +
+          s.status + ' – ' + s.percent + '%</span>';
+      });
+      legendHtml += '</div>';
+
+      el.innerHTML = tilesHtml + barHtml + legendHtml;
+    })
+    .catch(function() {
+      document.getElementById("passage-stats-{{ $.Ordinal }}").innerHTML =
+        '<em>Could not load passage stats.</em>';
+    });
+})();
+</script>
+{{ else }}
+<p><em>Passage stats error: could not find resource "{{ $file }}" in this page bundle.</em></p>
+{{ end }}

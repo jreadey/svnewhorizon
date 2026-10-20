@@ -38,4 +38,3 @@ Next day we visited some of the popular locations in Seville proper.
 
 
 
-
