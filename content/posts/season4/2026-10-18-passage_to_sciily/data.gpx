@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="gpx_from_logbook.py" xmlns="http://www.topografix.com/GPX/1/1" xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+  <trk>
+    <name>Sailing</name>
+    <extensions>
+      <gpxx:DisplayColor>#1a9850</gpxx:DisplayColor>
+    </extensions>
+    <trkseg>
+      <trkpt lat="35.941275" lon="14.495923">
+        <time>2026-10-17T10:34:22Z</time>
+      </trkpt>
+      <trkpt lat="36.717886" lon="15.312932">
+        <time>2026-10-17T21:47:53Z</time>
+      </trkpt>
+      <trkpt lat="36.798034" lon="15.524195">
+        <time>2026-10-17T23:33:33Z</time>
+      </trkpt>
+      <trkpt lat="36.896227" lon="15.575921">
+        <time>2026-10-18T00:51:00Z</time>
+      </trkpt>
+      <trkpt lat="37.043754" lon="15.461667">
+        <time>2026-10-18T04:20:13Z</time>
+      </trkpt>
+      <trkpt lat="37.055355" lon="15.378548">
+        <time>2026-10-18T05:42:07Z</time>
+      </trkpt>
+    </trkseg>
+  </trk>
+  <trk>
+    <name>Motoring</name>
+    <extensions>
+      <gpxx:DisplayColor>#2166ac</gpxx:DisplayColor>
+    </extensions>
+    <trkseg>
+      <trkpt lat="37.055355" lon="15.378548">
+        <time>2026-10-18T05:42:07Z</time>
+      </trkpt>
+      <trkpt lat="37.058891" lon="15.282289">
+        <time>2026-10-18T17:18:16Z</time>
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>
