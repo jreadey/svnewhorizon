@@ -1,5 +1,5 @@
 +++
-date = '2026-10-12T15:20:03+02:00'
+date = '2026-08-12T15:20:03+02:00'
 draft = false 
 title = 'Solar Eclipse in Mallorca'
 description = "Solar Eclipse in Mallorca"
