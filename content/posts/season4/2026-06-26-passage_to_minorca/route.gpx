@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="gpx_from_logbook.py" xmlns="http://www.topografix.com/GPX/1/1" xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+  <trk>
+    <name>Motoring</name>
+    <extensions>
+      <gpxx:DisplayColor>#2166ac</gpxx:DisplayColor>
+    </extensions>
+    <trkseg>
+      <trkpt lat="41.707876" lon="8.796562">
+        <time>2026-06-26T09:08:08Z</time>
+      </trkpt>
+      <trkpt lat="41.692831" lon="8.777093">
+        <time>2026-06-26T09:48:18Z</time>
+      </trkpt>
+    </trkseg>
+  </trk>
+  <trk>
+    <name>Sailing</name>
+    <extensions>
+      <gpxx:DisplayColor>#1a9850</gpxx:DisplayColor>
+    </extensions>
+    <trkseg>
+      <trkpt lat="41.692831" lon="8.777093">
+        <time>2026-06-26T09:48:18Z</time>
+      </trkpt>
+      <trkpt lat="41.347090" lon="7.943610">
+        <time>2026-06-26T19:13:31Z</time>
+      </trkpt>
+      <trkpt lat="41.215612" lon="7.064963">
+        <time>2026-06-27T12:47:12Z</time>
+      </trkpt>
+      <trkpt lat="41.174176" lon="6.593061">
+        <time>2026-06-27T19:33:45Z</time>
+      </trkpt>
+      <trkpt lat="41.177558" lon="6.549988">
+        <time>2026-06-27T21:17:41Z</time>
+      </trkpt>
+      <trkpt lat="41.177406" lon="6.549558">
+        <time>2026-06-27T21:18:38Z</time>
+      </trkpt>
+      <trkpt lat="41.157765" lon="6.514412">
+        <time>2026-06-28T05:58:52Z</time>
+      </trkpt>
+      <trkpt lat="41.151434" lon="6.445063">
+        <time>2026-06-28T12:53:24Z</time>
+      </trkpt>
+    </trkseg>
+  </trk>
+  <trk>
+    <name>Motoring</name>
+    <extensions>
+      <gpxx:DisplayColor>#2166ac</gpxx:DisplayColor>
+    </extensions>
+    <trkseg>
+      <trkpt lat="41.151434" lon="6.445063">
+        <time>2026-06-28T12:53:24Z</time>
+      </trkpt>
+      <trkpt lat="41.150511" lon="6.442586">
+        <time>2026-06-28T12:55:02Z</time>
+      </trkpt>
+      <trkpt lat="40.983262" lon="6.198038">
+        <time>2026-06-28T16:00:00Z</time>
+      </trkpt>
+    </trkseg>
+  </trk>
+  <trk>
+    <name>Sailing</name>
+    <extensions>
+      <gpxx:DisplayColor>#1a9850</gpxx:DisplayColor>
+    </extensions>
+    <trkseg>
+      <trkpt lat="40.983262" lon="6.198038">
+        <time>2026-06-28T16:00:00Z</time>
+      </trkpt>
+      <trkpt lat="40.981885" lon="6.200128">
+        <time>2026-06-28T18:58:25Z</time>
+      </trkpt>
+      <trkpt lat="40.980486" lon="6.202160">
+        <time>2026-06-28T19:15:44Z</time>
+      </trkpt>
+      <trkpt lat="40.978899" lon="6.203941">
+        <time>2026-06-28T19:29:53Z</time>
+      </trkpt>
+      <trkpt lat="40.977285" lon="6.205694">
+        <time>2026-06-28T19:42:24Z</time>
+      </trkpt>
+      <trkpt lat="40.975992" lon="6.207877">
+        <time>2026-06-28T19:52:43Z</time>
+      </trkpt>
+      <trkpt lat="40.974586" lon="6.209903">
+        <time>2026-06-28T20:02:32Z</time>
+      </trkpt>
+      <trkpt lat="40.972587" lon="6.210664">
+        <time>2026-06-28T20:14:48Z</time>
+      </trkpt>
+      <trkpt lat="40.970805" lon="6.212089">
+        <time>2026-06-28T20:25:28Z</time>
+      </trkpt>
+      <trkpt lat="40.968944" lon="6.213315">
+        <time>2026-06-28T20:34:33Z</time>
+      </trkpt>
+      <trkpt lat="40.967039" lon="6.214425">
+        <time>2026-06-28T20:42:22Z</time>
+      </trkpt>
+      <trkpt lat="40.965078" lon="6.215351">
+        <time>2026-06-28T20:50:28Z</time>
+      </trkpt>
+      <trkpt lat="40.963127" lon="6.216314">
+        <time>2026-06-28T20:56:59Z</time>
+      </trkpt>
+      <trkpt lat="40.961300" lon="6.217698">
+        <time>2026-06-28T21:04:28Z</time>
+      </trkpt>
+      <trkpt lat="40.959542" lon="6.219164">
+        <time>2026-06-28T21:11:57Z</time>
+      </trkpt>
+      <trkpt lat="40.957753" lon="6.220583">
+        <time>2026-06-28T21:22:08Z</time>
+      </trkpt>
+      <trkpt lat="40.956348" lon="6.222609">
+        <time>2026-06-28T21:37:26Z</time>
+      </trkpt>
+      <trkpt lat="40.954769" lon="6.224402">
+        <time>2026-06-28T21:47:25Z</time>
+      </trkpt>
+      <trkpt lat="40.953360" lon="6.226425">
+        <time>2026-06-28T21:57:53Z</time>
+      </trkpt>
+      <trkpt lat="40.952128" lon="6.228637">
+        <time>2026-06-28T22:09:24Z</time>
+      </trkpt>
+      <trkpt lat="40.950659" lon="6.230582">
+        <time>2026-06-28T22:19:04Z</time>
+      </trkpt>
+      <trkpt lat="40.949088" lon="6.232382">
+        <time>2026-06-28T22:27:49Z</time>
+      </trkpt>
+      <trkpt lat="40.947103" lon="6.233251">
+        <time>2026-06-28T22:36:27Z</time>
+      </trkpt>
+      <trkpt lat="40.945025" lon="6.233427">
+        <time>2026-06-28T22:43:38Z</time>
+      </trkpt>
+      <trkpt lat="40.942940" lon="6.233515">
+        <time>2026-06-28T22:49:32Z</time>
+      </trkpt>
+      <trkpt lat="40.941032" lon="6.232406">
+        <time>2026-06-28T22:53:57Z</time>
+      </trkpt>
+      <trkpt lat="40.940348" lon="6.231924">
+        <time>2026-06-28T22:55:15Z</time>
+      </trkpt>
+      <trkpt lat="40.787766" lon="5.982860">
+        <time>2026-06-29T06:55:15Z</time>
+      </trkpt>
+      <trkpt lat="40.677470" lon="5.811957">
+        <time>2026-06-29T09:37:54Z</time>
+      </trkpt>
+      <trkpt lat="40.533365" lon="4.854331">
+        <time>2026-06-29T18:35:10Z</time>
+      </trkpt>
+      <trkpt lat="40.032509" lon="4.598665">
+        <time>2026-06-30T02:58:37Z</time>
+      </trkpt>
+      <trkpt lat="39.855174" lon="4.325876">
+        <time>2026-06-30T06:26:54Z</time>
+      </trkpt>
+      <trkpt lat="39.806004" lon="4.279961">
+        <time>2026-06-30T07:24:29Z</time>
+      </trkpt>
+    </trkseg>
+  </trk>
+  <trk>
+    <name>Motoring</name>
+    <extensions>
+      <gpxx:DisplayColor>#2166ac</gpxx:DisplayColor>
+    </extensions>
+    <trkseg>
+      <trkpt lat="39.806004" lon="4.279961">
+        <time>2026-06-30T07:24:29Z</time>
+      </trkpt>
+      <trkpt lat="39.813971" lon="4.245674">
+        <time>2026-06-30T08:05:53Z</time>
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

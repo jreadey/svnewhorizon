@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="gpx_from_logbook.py" xmlns="http://www.topografix.com/GPX/1/1" xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+  <trk>
+    <name>Motoring</name>
+    <extensions>
+      <gpxx:DisplayColor>#2166ac</gpxx:DisplayColor>
+    </extensions>
+    <trkseg>
+      <trkpt lat="39.566394" lon="2.636089">
+        <time>2026-07-17T11:12:53Z</time>
+      </trkpt>
+      <trkpt lat="39.454205" lon="2.520870">
+        <time>2026-07-17T13:29:33Z</time>
+      </trkpt>
+    </trkseg>
+  </trk>
+  <trk>
+    <name>Sailing</name>
+    <extensions>
+      <gpxx:DisplayColor>#1a9850</gpxx:DisplayColor>
+    </extensions>
+    <trkseg>
+      <trkpt lat="39.454205" lon="2.520870">
+        <time>2026-07-17T13:29:33Z</time>
+      </trkpt>
+      <trkpt lat="39.472090" lon="2.490534">
+        <time>2026-07-17T14:19:19Z</time>
+      </trkpt>
+    </trkseg>
+  </trk>
+  <trk>
+    <name>Anchored</name>
+    <extensions>
+      <gpxx:DisplayColor>#6a51a3</gpxx:DisplayColor>
+    </extensions>
+    <trkseg>
+      <trkpt lat="39.472090" lon="2.490534">
+        <time>2026-07-17T14:19:19Z</time>
+      </trkpt>
+      <trkpt lat="39.463309" lon="2.479032">
+        <time>2026-07-17T19:19:21Z</time>
+      </trkpt>
+    </trkseg>
+  </trk>
+  <trk>
+    <name>Motoring</name>
+    <extensions>
+      <gpxx:DisplayColor>#2166ac</gpxx:DisplayColor>
+    </extensions>
+    <trkseg>
+      <trkpt lat="39.463309" lon="2.479032">
+        <time>2026-07-17T19:19:21Z</time>
+      </trkpt>
+      <trkpt lat="39.451427" lon="2.471232">
+        <time>2026-07-17T19:38:35Z</time>
+      </trkpt>
+    </trkseg>
+  </trk>
+  <trk>
+    <name>Sailing</name>
+    <extensions>
+      <gpxx:DisplayColor>#1a9850</gpxx:DisplayColor>
+    </extensions>
+    <trkseg>
+      <trkpt lat="39.451427" lon="2.471232">
+        <time>2026-07-17T19:38:35Z</time>
+      </trkpt>
+      <trkpt lat="39.442601" lon="2.417272">
+        <time>2026-07-17T20:44:31Z</time>
+      </trkpt>
+      <trkpt lat="39.442789" lon="2.404039">
+        <time>2026-07-17T21:06:52Z</time>
+      </trkpt>
+    </trkseg>
+  </trk>
+  <trk>
+    <name>Motoring</name>
+    <extensions>
+      <gpxx:DisplayColor>#2166ac</gpxx:DisplayColor>
+    </extensions>
+    <trkseg>
+      <trkpt lat="39.442789" lon="2.404039">
+        <time>2026-07-17T21:06:52Z</time>
+      </trkpt>
+      <trkpt lat="39.425153" lon="2.298232">
+        <time>2026-07-17T22:16:47Z</time>
+      </trkpt>
+    </trkseg>
+  </trk>
+  <trk>
+    <name>Sailing</name>
+    <extensions>
+      <gpxx:DisplayColor>#1a9850</gpxx:DisplayColor>
+    </extensions>
+    <trkseg>
+      <trkpt lat="39.425153" lon="2.298232">
+        <time>2026-07-17T22:16:47Z</time>
+      </trkpt>
+      <trkpt lat="39.398084" lon="2.079528">
+        <time>2026-07-18T01:52:48Z</time>
+      </trkpt>
+    </trkseg>
+  </trk>
+  <trk>
+    <name>Motoring</name>
+    <extensions>
+      <gpxx:DisplayColor>#2166ac</gpxx:DisplayColor>
+    </extensions>
+    <trkseg>
+      <trkpt lat="39.398084" lon="2.079528">
+        <time>2026-07-18T01:52:48Z</time>
+      </trkpt>
+      <trkpt lat="39.355046" lon="1.975221">
+        <time>2026-07-18T03:22:40Z</time>
+      </trkpt>
+    </trkseg>
+  </trk>
+  <trk>
+    <name>Sailing</name>
+    <extensions>
+      <gpxx:DisplayColor>#1a9850</gpxx:DisplayColor>
+    </extensions>
+    <trkseg>
+      <trkpt lat="39.355046" lon="1.975221">
+        <time>2026-07-18T03:22:40Z</time>
+      </trkpt>
+      <trkpt lat="39.207387" lon="1.664131">
+        <time>2026-07-18T07:22:43Z</time>
+      </trkpt>
+      <trkpt lat="39.112208" lon="1.469853">
+        <time>2026-07-18T10:15:35Z</time>
+      </trkpt>
+      <trkpt lat="39.111093" lon="1.459659">
+        <time>2026-07-18T10:28:18Z</time>
+      </trkpt>
+    </trkseg>
+  </trk>
+  <trk>
+    <name>Motoring</name>
+    <extensions>
+      <gpxx:DisplayColor>#2166ac</gpxx:DisplayColor>
+    </extensions>
+    <trkseg>
+      <trkpt lat="39.111093" lon="1.459659">
+        <time>2026-07-18T10:28:18Z</time>
+      </trkpt>
+      <trkpt lat="39.103648" lon="1.433912">
+        <time>2026-07-18T10:42:42Z</time>
+      </trkpt>
+    </trkseg>
+  </trk>
+  <trk>
+    <name>Sailing</name>
+    <extensions>
+      <gpxx:DisplayColor>#1a9850</gpxx:DisplayColor>
+    </extensions>
+    <trkseg>
+      <trkpt lat="39.103648" lon="1.433912">
+        <time>2026-07-18T10:42:42Z</time>
+      </trkpt>
+      <trkpt lat="39.075495" lon="1.370108">
+        <time>2026-07-18T11:52:45Z</time>
+      </trkpt>
+    </trkseg>
+  </trk>
+  <trk>
+    <name>Motoring</name>
+    <extensions>
+      <gpxx:DisplayColor>#2166ac</gpxx:DisplayColor>
+    </extensions>
+    <trkseg>
+      <trkpt lat="39.075495" lon="1.370108">
+        <time>2026-07-18T11:52:45Z</time>
+      </trkpt>
+      <trkpt lat="39.048216" lon="1.323964">
+        <time>2026-07-18T12:30:00Z</time>
+      </trkpt>
+    </trkseg>
+  </trk>
+  <trk>
+    <name>Anchored</name>
+    <extensions>
+      <gpxx:DisplayColor>#6a51a3</gpxx:DisplayColor>
+    </extensions>
+    <trkseg>
+      <trkpt lat="39.048216" lon="1.323964">
+        <time>2026-07-18T12:30:00Z</time>
+      </trkpt>
+      <trkpt lat="39.054036" lon="1.317177">
+        <time>2026-07-18T19:10:17Z</time>
+      </trkpt>
+    </trkseg>
+  </trk>
+  <trk>
+    <name>Motoring</name>
+    <extensions>
+      <gpxx:DisplayColor>#2166ac</gpxx:DisplayColor>
+    </extensions>
+    <trkseg>
+      <trkpt lat="39.054036" lon="1.317177">
+        <time>2026-07-18T19:10:17Z</time>
+      </trkpt>
+      <trkpt lat="39.149272" lon="0.940259">
+        <time>2026-07-19T02:39:33Z</time>
+      </trkpt>
+    </trkseg>
+  </trk>
+  <trk>
+    <name>Sailing</name>
+    <extensions>
+      <gpxx:DisplayColor>#1a9850</gpxx:DisplayColor>
+    </extensions>
+    <trkseg>
+      <trkpt lat="39.149272" lon="0.940259">
+        <time>2026-07-19T02:39:33Z</time>
+      </trkpt>
+      <trkpt lat="39.408841" lon="-0.296138">
+        <time>2026-07-20T06:40:46Z</time>
+      </trkpt>
+      <trkpt lat="39.417957" lon="-0.326138">
+        <time>2026-07-20T07:22:23Z</time>
+      </trkpt>
+    </trkseg>
+  </trk>
+  <trk>
+    <name>Motoring</name>
+    <extensions>
+      <gpxx:DisplayColor>#2166ac</gpxx:DisplayColor>
+    </extensions>
+    <trkseg>
+      <trkpt lat="39.417957" lon="-0.326138">
+        <time>2026-07-20T07:22:23Z</time>
+      </trkpt>
+      <trkpt lat="39.423800" lon="-0.319786">
+        <time>2026-07-20T07:42:56Z</time>
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>
