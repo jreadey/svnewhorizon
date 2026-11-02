@@ -15,7 +15,7 @@ TocOpen = false
     relative = true # Tells PaperMod to look inside the current post folder
 +++
 
-{{< map lat="36.14" lng="-5.35" zoom="13" title="The Rock" caption="Rock of Gibraltar">}}
+{{< map lat="36.14" lng="-5.35" zoom="13" title="The Rock" caption="Rock of Gibraltar" />}}
 
 
 Last year we somehow avoided hiking up to the top of the rock, but this time we resolved to do it!
@@ -57,4 +57,10 @@ to feed them (we learned later you were not supposed to do that).  The store onl
 
 {{< figure src="IMG_3470.jpg" alt="map" caption="Back in the city - time for some refreshments!" >}}
 
+Late we had another walk to the far south point of Gibraltar.  We were hoping to visit the Neanderthal Caves,
+but it turned out that only a very few people each year are allowed to visit.  The best we could do was this
+long range view from the road...
+
+
+{{< figure src="IMG_3717.jpg" alt="map" caption="Neanderthal caves" >}}
 

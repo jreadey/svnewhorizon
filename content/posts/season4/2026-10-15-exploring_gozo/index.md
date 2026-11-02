@@ -15,7 +15,7 @@ TocOpen = false
     relative = true # Tells PaperMod to look inside the current post folder
 +++
 
-{{< map lat="36.044300" lng="14.2417" zoom="13" title="Gozo" caption="Valletta">}}
+{{< map lat="36.044300" lng="14.2417" zoom="13" title="Gozo" caption="Valletta" />}}
 
 Gozo is Malta's second largest island.  We didn't get a chance to stop there on our way in
 to the main island, so we took a ferry to visit the island.  Gozo has one of the most interesting 

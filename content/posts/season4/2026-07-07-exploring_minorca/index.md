@@ -1,9 +1,9 @@
 +++
-date = '2026-07-07T15:20:03+02:00'
+date = '2026-06-30T15:20:03+02:00'
 draft = false 
 title = 'Exploring Minorca'
-description = "Exploring Minorca"
-tags = ["mediterranean", "spain", "minorca"]
+description = "Emily and her friend come visit as we sail in Minorca"
+tags = ["mediterranean", "france", "corsica"]
 categories = ["Travel"]
 showToc = true
 TocOpen = false
@@ -27,7 +27,7 @@ Soon it was time for them to leave, so they took a taxi back to the airport.
 After they left, we spent some days exploring the north coast of the island until it was time to 
 meet up with our next round of guests who were arriving in Palma.
 
-{{< map lat="39.8875" lng="4.2855" zoom="16" title="Marina del Rei" caption="Marina del Rei">}}
+{{< map lat="39.8875" lng="4.2855" zoom="16" title="Marina del Rei" caption="Marina del Rei" />}}
 
 {{< figure src="IMG_4647.jpg" alt="map" caption="Above the bay in Mahon" >}}
 

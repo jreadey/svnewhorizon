@@ -15,7 +15,7 @@ TocOpen = false
     relative = true # Tells PaperMod to look inside the current post folder
 +++
 
-{{< map lat="36.1447" lng="-5.35257" zoom="13" title="Gibraltar" >}}
+{{< map lat="36.1447" lng="-5.35257" zoom="13" title="Gibraltar" />}}
 
 We flew from Seattle to London to Gibraltar to meet up with New Horizon.  The boat was actually across the border in La Linea, Spain.  But it's a quick walk to get to the Spanish side.
 

@@ -15,7 +15,7 @@ TocOpen = false
     relative = true # Tells PaperMod to look inside the current post folder
 +++
 
-{{< map lat="39.45283" lng="-0.34752" zoom="13" title="Oceanigrafic" caption="Oceanigrafic">}}
+{{< map lat="39.45283" lng="-0.34752" zoom="13" title="Oceanigrafic" caption="Oceanigrafic" />}}
 
 As a welcome break from boat work, we had a visit to the [Oceanigrafic Valencia](https://www.oceanografic.org/en/),
 the largest aquarium in Europe.  It was a really hot day, but fortunately much of the time we spent below ground

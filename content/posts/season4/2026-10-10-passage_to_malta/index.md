@@ -49,6 +49,6 @@ keep going to the main island of Malta, anchoring in Melleha bay which was quite
 
 {{< figure src="IMG_4104.jpg" alt="map" caption="All the water coming over the deck left this salt on the table" >}}
 
-{{< map file="route.gpx" caption="logbook 2026-04-20 to 2026-04-21 ">}}
+{{< map file="route.gpx" caption="logbook 2026-04-20 to 2026-04-21 " />}}
 
 {{< passage-stats file="stats.json" caption="Malta to Sicily passage stats">}}

@@ -15,7 +15,7 @@ TocOpen = false
     relative = true # Tells PaperMod to look inside the current post folder
 +++
 
-{{< map lat="35.8997" lng="14.5147" zoom="13" title="Valletta" caption="Valletta">}}
+{{< map lat="35.8997" lng="14.5147" zoom="13" title="Valletta" caption="Valletta" />}}
 
 We moved the boat a few miles down the coast from Mellieha Bay (where we first landed in Malta) to St. Julian's Bay.  
 Initially we were planning to dock in Valletta itself, but there was no space (and no anchoring).  But St. Julian's was just a 

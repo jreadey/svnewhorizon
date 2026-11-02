@@ -11,6 +11,6 @@ This section covers our Season 3 adventures.  Returning to our winter base in Th
 explore Holland's inland waters, then head to the Channel Islands (with brief stops in Belgium and France along the way), before setting off from Falmouth England to cross the Bay of Biscay to arrive in Spain's Galicia region.  From there we sail down the Portugese coast until (avoiding the Orcas) we arrive at Gibraltar, the gateway to the Mediterranean.  
 
 
-{{< map file="route.gpx" caption="route Apr 2025 to Nov 2025">}}
+{{< map file="route.gpx" caption="route Apr 2025 to Nov 2025" />}}
 
 {{< passage-stats file="stats.json" caption="Season 3 passage stats">}}

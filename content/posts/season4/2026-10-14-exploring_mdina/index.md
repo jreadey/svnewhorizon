@@ -15,7 +15,7 @@ TocOpen = false
     relative = true # Tells PaperMod to look inside the current post folder
 +++
 
-{{< map lat="35.8858" lng="14.403056" zoom="13" title="Mdina" caption="Valletta">}}
+{{< map lat="35.8858" lng="14.403056" zoom="13" title="Mdina" caption="Valletta" />}}
 
 After our day tour of Valletta, we took a hub-on hop-off bus to Mdina.  Mdina is located in the center of the island 
 of Malta.  Before the 1800's Mdina was the capital of Malta and had been occupied since the bronze age.  By being far away (for Malta)

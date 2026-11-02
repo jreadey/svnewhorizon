@@ -15,7 +15,7 @@ TocOpen = false
     relative = true # Tells PaperMod to look inside the current post folder
 +++
 
-{{< map lat="39.4234" lng="-0.3201" zoom="13" title="Valencia Mar" caption="Valencia Mar">}}
+{{< map lat="39.4234" lng="-0.3201" zoom="13" title="Valencia Mar" caption="Valencia Mar" />}}
 
 We arrived in Valencia again to drop off our guests (who planned to visit more cities on the Spainish mainland), 
 and to have some work down on our boat.  We stayed at the Valencia Mar marina (where we had stayed last time we visited).

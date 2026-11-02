@@ -37,7 +37,7 @@ had the very odd sight of a crescent sun sinking below the horizon.  We turned o
 coast of Mallorca.  This happened to be the second night of the Persiad Meteor shower and conditions with a new moon should have been excellent, but 
 it was a bit of a bust with just a few meteor streaks now and then (though we did see one fireball).
 
-{{< map lat="39.566" lng="2.342" zoom="13" title="Eclipse Viewing location" caption="Eclipse Viewing location">}}
+{{< map lat="39.566" lng="2.342" zoom="13" title="Eclipse Viewing location" caption="Eclipse Viewing location" />}}
 
 {{< figure src="IMG_3699.jpg" alt="map" caption="near Palma" >}}
 

@@ -1,4 +1,4 @@
- +++
++++
 date = '2026-07-18T15:20:03+02:00'
 draft = false 
 title = 'Passage Palma to Valencia'
@@ -59,7 +59,7 @@ and snorkeling.
 {{< figure src="IMG_4723.jpg" alt="map" caption="After making landfall in Valencia we treated ourselves to some Paella (a Valencia specialty)" >}}
 {{< figure src="IMG_4724.jpg" alt="map" caption="Enjoying the restaurant in Valencia" >}}
 
-{{< map file="route.gpx" caption="logbook 2026-07-30 to 2026-08-01 ">}}
+{{< map file="route.gpx" caption="logbook 2026-07-30 to 2026-08-01 " />}}
 
 {{< passage-stats file="stats.json" caption="passage stats">}}
 

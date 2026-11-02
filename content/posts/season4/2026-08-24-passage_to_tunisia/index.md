@@ -64,7 +64,7 @@ before moving to a permanent berth the next morning.
 
 {{< figure src="IMG_5037.jpg" alt="map" caption="Passage complete we enjoy some Tunisian appetizers" >}}
 
-{{< map file="route.gpx" caption="logbook 2026-08-24 to 2026-08-30 ">}}
+{{< map file="route.gpx" caption="logbook 2026-08-24 to 2026-08-30 " />}}
 
 {{< passage-stats file="stats.json" caption="Mallorca to Tunisia passage stats">}}
 

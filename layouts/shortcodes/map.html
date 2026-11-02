@@ -10,7 +10,7 @@
 {{ $caption := .Get "caption" }}
 {{ if $caption }}<figure>{{ end }}
 <!-- Unique container for this map instance -->
-<div id="map-{{ .Ordinal }}" style="height: 450px; width: 100%; border-radius: 8px; margin: 20px 0;"></div>
+<div id="map-{{ .Ordinal }}" style="height: 450px; width: 100%; border-radius: 8px; margin: 20px 0;">{{ .Inner }}</div>
 {{ if $caption }}<figcaption><p>{{ $caption | markdownify }}</p></figcaption></figure>{{ end }}
 
 {{ $file := .Get "file" }}
@@ -28,6 +28,22 @@
         attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
     }).addTo(map);
 
+    var STOP_STATUSES = { "Anchored": true, "Docked": true };
+
+    function fmtTime(iso) {
+      // "2026-07-17T14:19:19Z" -> "Jul 17, 14:19 UTC"
+      if (!iso) return "";
+      var d = new Date(iso);
+      var months = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
+      var hh = ("0" + d.getUTCHours()).slice(-2);
+      var mm = ("0" + d.getUTCMinutes()).slice(-2);
+      return months[d.getUTCMonth()] + " " + d.getUTCDate() + ", " + hh + ":" + mm + " UTC";
+    }
+
+    function sameSpot(a, b) {
+      return a && b && Math.abs(a[0] - b[0]) < 0.0005 && Math.abs(a[1] - b[1]) < 0.0005;
+    }
+
     fetch("{{ .RelPermalink }}")
       .then(function(res) { return res.text(); })
       .then(function(text) {
@@ -35,9 +51,14 @@
         var tracks = xml.getElementsByTagNameNS("*", "trk");
         var bounds = [];
         var defaultColor = "#2166ac";
+        var stopLatLngs = [];
+        var routeStart = null, routeStartTime = null;
+        var routeEnd = null, routeEndTime = null;
 
         for (var i = 0; i < tracks.length; i++) {
           var trk = tracks[i];
+          var nameEls = trk.getElementsByTagNameNS("*", "name");
+          var trkName = nameEls.length ? nameEls[0].textContent : "";
           var colorEls = trk.getElementsByTagNameNS("*", "DisplayColor");
           var color = colorEls.length ? colorEls[0].textContent : defaultColor;
           var pts = trk.getElementsByTagNameNS("*", "trkpt");
@@ -51,6 +72,52 @@
           }
 
           L.polyline(latlngs, { color: color, weight: 4 }).addTo(map);
+
+          if (latlngs.length > 0) {
+            if (!routeStart) {
+              routeStart = latlngs[0];
+              var timeEls0 = pts[0].getElementsByTagNameNS("*", "time");
+              routeStartTime = timeEls0.length ? timeEls0[0].textContent : null;
+            }
+            routeEnd = latlngs[latlngs.length - 1];
+            var timeElsN = pts[pts.length - 1].getElementsByTagNameNS("*", "time");
+            routeEndTime = timeElsN.length ? timeElsN[0].textContent : null;
+          }
+
+          // Mark every anchorage/mooring stop along the route with a dot
+          // at the position where the boat stopped, colored to match its
+          // track and labeled with the stop's start/end time.
+          if (STOP_STATUSES[trkName] && latlngs.length > 0) {
+            var stopLatLng = latlngs[0];
+            var startTimeEls = pts[0].getElementsByTagNameNS("*", "time");
+            var endTimeEls = pts[pts.length - 1].getElementsByTagNameNS("*", "time");
+            var startTime = startTimeEls.length ? startTimeEls[0].textContent : null;
+            var endTime = endTimeEls.length ? endTimeEls[0].textContent : null;
+
+            stopLatLngs.push(stopLatLng);
+            L.circleMarker(stopLatLng, {
+              radius: 7,
+              color: color,
+              weight: 2,
+              fillColor: color,
+              fillOpacity: 0.9
+            }).addTo(map).bindPopup(
+              "<b>" + trkName + "</b><br>" + fmtTime(startTime) +
+              (endTime && endTime !== startTime ? " &ndash; " + fmtTime(endTime) : "")
+            );
+          }
+        }
+
+        // The route.gpx itself only covers the underway period, so the
+        // very first/last logged points are typically where the passage
+        // began/ended (e.g. a marina or anchorage) even when that stop
+        // wasn't captured as its own Anchored/Docked track. Mark those
+        // too, unless they coincide with a stop marker already placed.
+        if (routeStart && !stopLatLngs.some(function(s) { return sameSpot(s, routeStart); })) {
+          L.marker(routeStart).addTo(map).bindPopup("<b>Start</b><br>" + fmtTime(routeStartTime));
+        }
+        if (routeEnd && !stopLatLngs.some(function(s) { return sameSpot(s, routeEnd); })) {
+          L.marker(routeEnd).addTo(map).bindPopup("<b>End</b><br>" + fmtTime(routeEndTime));
         }
 
         if (bounds.length > 0) {
@@ -62,6 +129,38 @@
 {{ else }}
 <p><em>Map error: could not find resource "{{ $file }}" in this page bundle.</em></p>
 {{ end }}
+{{ else if .Inner }}
+<!-- Multiple markers, from nested marker shortcodes -->
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    var container = document.getElementById('map-{{ .Ordinal }}');
+    var markerEls = Array.prototype.slice.call(container.querySelectorAll('.map-marker-data'));
+
+    var map = L.map(container);
+
+    L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        maxZoom: 19,
+        attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+    }).addTo(map);
+
+    var bounds = [];
+    markerEls.forEach(function(el) {
+      var lat = parseFloat(el.dataset.lat);
+      var lng = parseFloat(el.dataset.lng);
+      bounds.push([lat, lng]);
+      var m = L.marker([lat, lng]).addTo(map);
+      if (el.dataset.title) {
+        m.bindPopup('<b>' + el.dataset.title + '</b>');
+      }
+    });
+
+    if (bounds.length === 1) {
+      map.setView(bounds[0], {{ with .Get "zoom" }}{{ . }}{{ else }}10{{ end }});
+    } else if (bounds.length > 1) {
+      map.fitBounds(bounds, { padding: [20, 20] });
+    }
+  });
+</script>
 {{ else }}
 <!-- Leaflet Initialization: single marker -->
 <script>

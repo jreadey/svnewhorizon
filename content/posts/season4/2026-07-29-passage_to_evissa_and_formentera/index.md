@@ -21,7 +21,7 @@ are the targets of hundreds of people looking to party.  Especially in July and 
 Not really our scene, but it would be remiss not to at least check it out! 
 
 
-{{< map lat="38.768" lng="1.43" zoom="13" title="Beach at Formentera">}}
+{{< map lat="38.768" lng="1.43" zoom="13" title="Beach at Formentera" />}}
 
 
 {{< figure src="IMG_4838.jpg" alt="map" caption="uh-oh, the switch for the toilet is on the fritz!" >}}
@@ -46,7 +46,7 @@ Not really our scene, but it would be remiss not to at least check it out!
 
 {{< figure src="IMG_3665.jpg" alt="map" caption="Relaxing back at the boat" >}}
 
-{{< map file="route.gpx" caption="logbook 2026-07-30 to 2026-08-01 ">}}
+{{< map file="route.gpx" caption="logbook 2026-07-30 to 2026-08-01 " />}}
 
 
 {{< passage-stats file="stats.json" caption="passage stats">}}

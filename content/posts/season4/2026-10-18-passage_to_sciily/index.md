@@ -27,7 +27,7 @@ TocOpen = false
  It was Sunday, so we couldn't check into Italy (offices were closed), so we spent the rest of the day relaxing and getting 
  caught up on our sleep.
 
-{{< map file="route.gpx" caption="logbook 2026-04-20 to 2026-04-21 ">}}
+{{< map file="route.gpx" caption="logbook 2026-04-20 to 2026-04-21 " />}}
 
 {{< passage-stats file="stats.json" caption="Malta to Sicily passage stats">}}
 

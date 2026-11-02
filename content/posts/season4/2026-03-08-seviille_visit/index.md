@@ -15,9 +15,9 @@ TocOpen = false
     relative = true # Tells PaperMod to look inside the current post folder
 +++
 
-{{< map lat="37.38" lng="-5.997" zoom="13" title="Seville" caption="Seville is in Southern Spain">}}
+{{< map lat="37.38" lng="-5.997" zoom="13" title="Seville" caption="Seville is in Southern Spain" />}}
 
-{{< map file="gibraltar_to_seville.gpx" caption="Our route from Gibraltar to Seville">}}
+{{< map file="gibraltar_to_seville.gpx" caption="Our route from Gibraltar to Seville" />}}
 
 While in Gibraltar we wanted to visit some of the interesting nearby cities like Seville.  Unfortunately Seville is inland, so 
 we couldn't sail there.  Instead we rented a car and drove two and half hours to Seville.
