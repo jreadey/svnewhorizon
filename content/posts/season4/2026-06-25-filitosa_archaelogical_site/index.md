@@ -17,12 +17,12 @@ TocOpen = false
 
 Just before we left Corsica, we visited the archaeological site of Filitosa.  The site is 
 about 7 miles inland and there was no bus service, so we rented e-bikes for the day.  It was really 
-hot and we appreciated not having to pedal very hard to ride along a 10-12 mph.
+hot and we appreciated not having to pedal very hard to ride along at 10-12 mph.
  
 Once we got there, we visited the small museum and explored the grounds.  The site has been occupied since paleolithic
 times.  There are many natural caves that likely provided shelter for early stone age people.
-Later (but still pre-bronze age) this culture erected stone pillars (called 'torre') that typically had
-a bas relief face on the top.  No one is sure what the purpose of these pillars were - the culture left no 
+Later (but still pre-Bronze Age) this culture erected stone pillars (called 'torre') that typically had
+a bas-relief face on the top.  No one is sure what the purpose of these pillars was - the culture left no 
 written records.  
 
 {{< map lat="41.744953" lng="8.870256" zoom="8" title="Filitosa" caption="Corsica" />}}

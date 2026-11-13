@@ -16,14 +16,14 @@ TocOpen = false
 +++
 
 While we were waiting for the weather to improve to start sailing, we thought it would be nice to explore
-more of the Andalusia (the southern province of Spain); especially those that we couldn't get to by boat.  So we rented 
+more of Andalusia (the southern province of Spain); especially those that we couldn't get to by boat.  So we rented 
 a car for a week and set out from Gibraltar.   Andalusia was colonized by the Romans and then controlled by the Arabs from 700 to 1500 AD, so the culture
 is an interesting blend of Muslim, Spanish, and Latin influences.
 
 
 {{< map zoom="9" caption="Road trip stops" >}}
   {{< marker lat="36.132" lng="-5.353" title="Gibraltar" >}}
-  {{< marker lat="36.832" lng="-5.239" title="Achnipo" >}}
+  {{< marker lat="36.832" lng="-5.239" title="Acinipo" >}}
   {{< marker lat="36.7423" lng="-5.1671" title="Ronda" >}}
   {{< marker lat="36.8625" lng="-5.1813" title="Setenil" >}}
   {{< marker lat="37.1882" lng="-3.6067" title="Granada" >}}
@@ -31,9 +31,9 @@ is an interesting blend of Muslim, Spanish, and Latin influences.
    
 {{< /map >}}
 
-On the first day we wanted to view the ancient site of [Achnipo](https://en.wikipedia.org/wiki/Acinipo)
+On the first day we wanted to view the ancient site of [Acinipo](https://en.wikipedia.org/wiki/Acinipo),
 an ancient city founded by the Romans 2000 years ago.  It's
-about 20 km from Ronda where we planned to stay for the night.  There was a bit of problem though... as we got near the site (which is 
+about 20 km from Ronda where we planned to stay for the night.  There was a bit of a problem though... as we got near the site (which is 
 located on a hill), there was a large gap in the road.  Apparently flood waters had carried away part of the 
 road and it was closed.  We were only about a mile away, so we decided to leave the car by the side of the 
 road and walk to the site.  Along the way we came across more impassable (by car) sections of the road, but
@@ -61,8 +61,8 @@ relief) we made it to our hotel for the night (just outside Ronda).
 {{< figure src="IMG_3481.jpg" alt="map" caption="Dinner at the hotel" >}}
 
 Next day we went on to Ronda.  Ronda is an old city that is divided by a steep ravine (over 100 m).
-We happened to be there on Palm Sunday so got to see the processional (a big deal in the Andalusia).  
-The pointy hats look KKK costumes, but have no relation.
+We happened to be there on Palm Sunday so got to see the processional (a big deal in Andalusia).  
+The pointy hats look like KKK costumes, but have no relation.
 
 {{< figure src="IMG_0795.jpg" alt="map" caption="Promenade in Ronda" >}}
 {{< figure src="IMG_0800.jpg" alt="map" caption="Ronda is high on a promontory" >}}
@@ -70,8 +70,8 @@ The pointy hats look KKK costumes, but have no relation.
 {{< figure src="IMG_0809.jpg" alt="map" caption="View of Ronda from across the bridge" >}}
 {{< figure src="IMG_3493.jpg" alt="map" caption="Rong looking colorful" >}}
 {{< figure src="IMG_3496.jpg" alt="map" caption="Selfie on the bridge" >}}
-{{< figure src="IMG_3518.jpg" alt="map" caption="Bath house dating from when the arabs controlled this part of Spain" >}}
-{{< figure src="IMG_3530.jpg" alt="map" caption="Next day was Palm Sundday, which is the time for the processional" >}}
+{{< figure src="IMG_3518.jpg" alt="map" caption="Bath house dating from when the Arabs controlled this part of Spain" >}}
+{{< figure src="IMG_3530.jpg" alt="map" caption="Next day was Palm Sunday, which is the time for the processional" >}}
 {{< figure src="IMG_0955.jpg" alt="map" caption="It went on for some time!" >}}
 {{< figure src="IMG_0981.jpg" alt="map" caption="Religious icons were carried through the streets" >}}
 
@@ -103,7 +103,7 @@ a super yacht Marina there, but since New Horizon is less than 40 meters, we tho
 {{< figure src="IMG_1123.jpg" alt="map" caption="A pleasant spot" >}}
 {{< figure src="IMG_1130.jpg" alt="map" caption="Moorish doorway" >}}
 {{< figure src="IMG_3649.jpg" alt="map" caption="Outside the castle" >}}
-{{< figure src="IMG_1210.jpg" alt="map" caption="Ancient ampitheater" >}}
+{{< figure src="IMG_1210.jpg" alt="map" caption="Ancient amphitheater" >}}
 {{< figure src="IMG_3669.jpg" alt="map" caption="Malaga old town" >}}
 {{< figure src="IMG_1226.jpg" alt="map" caption="Inside the church" >}}
 

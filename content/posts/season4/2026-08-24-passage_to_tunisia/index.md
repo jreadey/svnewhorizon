@@ -19,17 +19,17 @@ It was time to leave Europe and sail to our winter moorage in Yasmine Hammamet, 
 we had flights booked for Tunis to LAX for my niece's wedding.  It was a long passage (more than 600 nm), so we expected 
 to spend some days at sea.
 
-We left from Stoller, Mallorca and sailed along the north coast of the island under sails with light winds.  
-It was a long stetch of high cliffs with no shore side towns along the way.  As night fell, the wind picked up and 
+We left from Soller, Mallorca and sailed along the north coast of the island under sails with light winds.  
+It was a long stretch of high cliffs with no shore side towns along the way.  As night fell, the wind picked up and 
 there were some scattered thunderstorms.  
 
-Over the next two days we sailed steadily, passing between Mallorca and Minorca heading SE.  Once we were away from the Baelearic Islands,
-we saw hardly any other boats and we just had miles of open sailing ahead of us.  Then wind picked up and shifted to the SE (on our nose)
-so we changed course to the south so we could continue to make progress under sail.  Suddenly they wind became quite strong and actually
+Over the next two days we sailed steadily, passing between Mallorca and Minorca heading SE.  Once we were away from the Balearic Islands,
+we saw hardly any other boats and we just had miles of open sailing ahead of us.  Then the wind picked up and shifted to the SE (on our nose)
+so we changed course to the south so we could continue to make progress under sail.  Suddenly the wind became quite strong and actually
 broke one of the mounts of our new solar panels.  Fortunately the panel didn't come completely off, but was dangling with just two mounts
 holding it up.
 
-Meanwhile, our Integral generator was running in reduced power mode for some reason (I never figured out the root cause, but later tried power-cycling 
+Meanwhile, our Integrel generator was running in reduced power mode for some reason (I never figured out the root cause, but later tried power-cycling 
 the system and that resolved the issue).
 Luckily our dangling solar panels were still producing power, so we weren't in danger of running out of power.
 
@@ -39,9 +39,9 @@ decks which had been wafted in by the winds from Africa.  Also, it had been gett
 a direct south wind that felt like you were standing outside of a furnace.  
 
 We still had a ways to go since our marina was on the SE side of Tunisia.  We thought about taking a break in Bizerte, but in the end
-we justed wanted to deal with the check in formalities at our home base.  The last stretch was quite slow, but we arrived in Hammamet just after
-sunset (and 9 days after leaving Mallorca).  A launch from the marina met us and guided as in to the customs dock.  Even though we tired, we had now to deal with the marina, police, and 
-custom officials.  Our boat was inspected for contraband (drone's are not allowed in Tunisia, and ours was put under lock and key for our visit).  Officially
+we just wanted to deal with the check-in formalities at our home base.  The last stretch was quite slow, but we arrived in Hammamet just after
+sunset (and 9 days after leaving Mallorca).  A launch from the marina met us and guided us in to the customs dock.  Even though we were tired, we now had to deal with the marina, police, and 
+customs officials.  Our boat was inspected for contraband (drones are not allowed in Tunisia, and ours was put under lock and key for our visit).  Officially
 only one bottle of whiskey or two bottles of wine are allowed, but no one seemed concerned about my bilge stash of ~20 bottles of wine and whiskey.
 
 Finally we were officially admitted to the country.  We ventured out for a late dinner, and then returned to spend the night at the customs dock 

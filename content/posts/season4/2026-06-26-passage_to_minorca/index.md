@@ -11,17 +11,17 @@ TocOpen = false
 [cover]
     image = "IMG_2948.jpg" 
     alt = "passage to Minorca"
-    caption = "Passage to Miroca"
+    caption = "Passage to Minorca"
     relative = true # Tells PaperMod to look inside the current post folder
 +++
 
-We left Minorca to head west again, aiming for the Balearic island of Minorca.
+We left Corsica to head west again, aiming for the Balearic island of Minorca.
 The winds were light, but we resisted using the engine for the most part and made the 
 passage in 4 days.
 
 
 {{< figure src="IMG_2941.jpg" alt="map" caption="We spotted a Manta Ray swimming just below the surface" >}}
-{{< figure src="IMG_2973.jpg" alt="map" caption="After not seeing many boats during the psssage, we were back in the tourist scene on arriving in Minorca" >}}
+{{< figure src="IMG_2973.jpg" alt="map" caption="After not seeing many boats during the passage, we were back in the tourist scene on arriving in Minorca" >}}
  
 {{< map file="route.gpx" caption="logbook 2026-07-30 to 2026-08-01 " />}}
 

@@ -3,7 +3,7 @@ date = '2026-07-29T15:20:03+02:00'
 draft = false 
 title = 'Passage to Evissa and Formentera'
 description = "Passage to Evissa and Formentera"
-tags = ["sightseeing", "mediterranean", "malta", "mdina"]
+tags = ["passage", "mediterranean", "spain", "evissa", "formentera"]
 categories = ["Travel"]
 showToc = true
 TocOpen = false
@@ -15,7 +15,7 @@ TocOpen = false
     relative = true # Tells PaperMod to look inside the current post folder
 +++
 
-Finally done with our boat projects, we set sail to head back to The Baeleric islands.  First stop Evissa and then
+Finally done with our boat projects, we set sail to head back to the Balearic Islands.  First stop Evissa and then
 a visit to the smallest of the islands: Formentera.  These include some of the most popular "hot spots" in the islands, like Ibiza and
 are the targets of hundreds of people looking to party.  Especially in July and August, the peak season for European vacationers.
 Not really our scene, but it would be remiss not to at least check it out! 
@@ -26,7 +26,7 @@ Not really our scene, but it would be remiss not to at least check it out!
 
 {{< figure src="IMG_4838.jpg" alt="map" caption="uh-oh, the switch for the toilet is on the fritz!" >}}
 
-{{< figure src="IMG_3548.jpg" alt="map" caption="We saw lots of string rays at the anchorage" >}}
+{{< figure src="IMG_3548.jpg" alt="map" caption="We saw lots of stingrays at the anchorage" >}}
 
 {{< figure src="IMG_3569.jpg" alt="map" caption="Many steep islands near Evissa" >}}
 
@@ -42,7 +42,7 @@ Not really our scene, but it would be remiss not to at least check it out!
 
 {{< figure src="IMG_3624.jpg" alt="map" caption="Walking along the beach (which we do much less than you might think!)" >}}
 
-{{< figure src="IMG_3636.jpg" alt="map" caption="selfie" >}}
+{{< figure src="IMG_3636.jpg" alt="map" caption="Selfie" >}}
 
 {{< figure src="IMG_3665.jpg" alt="map" caption="Relaxing back at the boat" >}}
 

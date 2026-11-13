@@ -19,6 +19,10 @@ defaultContentLanguageInSubdir = false
     name = "Posts"
     url = "posts"
 
+[params]
+  ShowBreadCrumbs = true
+  ShowPostNavLinks = true
+
 [params.assets]
   favicon = "/favicon.ico"
   favicon16x16 = "/favicon-16x16.png"

@@ -1,0 +1,34 @@
+{{- /*
+  Custom override of the theme's post_nav_links partial.
+
+  The theme's own version uses Pages.Next/Pages.Prev on site.RegularPages,
+  which on this site comes out backwards (clicking "prev" lands on a
+  *newer* post, "next" on an *older* one). Rather than depend on that
+  collection's ordering, sort explicitly by date ascending and walk to the
+  immediate neighbor on each side, so Previous always means "the post
+  before this one chronologically" and Next always means "the post after".
+*/ -}}
+{{- $pages := where site.RegularPages "Type" "in" site.Params.mainSections -}}
+{{- $pages = $pages.ByDate -}}
+{{- $index := -1 -}}
+{{- range $i, $p := $pages -}}
+  {{- if eq $p $ -}}{{- $index = $i -}}{{- end -}}
+{{- end -}}
+{{- if ge $index 0 -}}
+<nav class="paginav">
+  {{- if gt $index 0 -}}
+  {{- $prev := index $pages (sub $index 1) -}}
+  <a class="prev" href="{{ $prev.RelPermalink }}">
+    <span class="title">&larr; {{ i18n "prev_page" | default "Previous" }}</span>
+    <span>{{- $prev.Title -}}</span>
+  </a>
+  {{- end -}}
+  {{- if lt $index (sub (len $pages) 1) -}}
+  {{- $next := index $pages (add $index 1) -}}
+  <a class="next" href="{{ $next.RelPermalink }}">
+    <span class="title">{{ i18n "next_page" | default "Next" }} &rarr;</span>
+    <span>{{- $next.Title -}}</span>
+  </a>
+  {{- end -}}
+</nav>
+{{- end -}}

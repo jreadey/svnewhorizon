@@ -40,7 +40,7 @@ at many of the small bays along this deeply indented coast.
 
 {{< figure src="IMG_2584.jpg" alt="map" caption="The west coast of Corsica is much more rocky than the east side" >}}
 
-{{< figure src="IMG_2818.jpg" alt="map" caption="Visiting Napolean's birth place in Ajaccio" >}}
+{{< figure src="IMG_2818.jpg" alt="map" caption="Visiting Napoleon's birthplace in Ajaccio" >}}
 
 {{< figure src="IMG_4430.jpg" alt="map" caption="Fortified old town in Calvi" >}}
 
@@ -49,7 +49,7 @@ at many of the small bays along this deeply indented coast.
 
 {{< figure src="IMG_4440.jpg" alt="map" caption="Sunset in Corsica" >}}
 
-{{< figure src="IMG_4465.jpg" alt="map" caption="Girolata is a small town only accessible by boat, had some nice French food is this rustic open air restaurant" >}}
+{{< figure src="IMG_4465.jpg" alt="map" caption="Girolata is a small town only accessible by boat; we had some nice French food in this rustic open-air restaurant" >}}
 
 {{< figure src="IMG_4482.jpg" alt="map" caption="Paddle boarding in Girolata" >}}
 

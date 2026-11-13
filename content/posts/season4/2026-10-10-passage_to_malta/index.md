@@ -26,11 +26,11 @@ weren't moving fast enough for the rudder to help much).  At the dock I put on m
 the prop.  It looked fine and the engine was running good as well.  I suspect we must have picked up a plastic bag or something but
 it came off again as we came into the dock.  Well that was a relief!
 
-Leaving Tunisia has the same lengthy formalities as entering, but once we had visited to marina office, the captainary,
+Leaving Tunisia has the same lengthy formalities as entering, but once we had visited the marina office, the capitainerie,
 customs, and police we were permitted to cast off.  The customs inspectors who came on board asked for some chocolate, 
 but on hearing we had only Tunisian treats, declined.
 
-Our sailing abilities must have gotten a bit rusty at the dock as as we started to raise the main, I saw the halyard was caught on
+Our sailing abilities must have gotten a bit rusty at the dock as we started to raise the main, I saw the halyard was caught on
 a block high up the mast (I should have checked before leaving the marina).  Various attempts at jiggling it loose were to no avail.  
 I didn't want to go back to port to 
 deal with it or climb the mast at sea, so we sailed on a beam wind with just the genoa. 
@@ -42,10 +42,10 @@ Finally just before we were about to cross the shipping lanes we decided
 we'd have a better time heading for Malta (~160nm to the east), so we changed course for a mostly downhill run.
 
 Once we changed course we made good progress and were doing 5-6 kts with just the genoa.  
-We got to Gozo (the westward island of Malta) in the afternoon after two nights on the passage.  Rong wanted to
+We got to Gozo (the westernmost island of Malta) in the afternoon after two nights on the passage.  Rong wanted to
 see some of the archaeological sites on Gozo.  But the scene in the main harbour was quite busy with tour boats, ferries, 
-and recreational boats going every with way.  The anchorage in the Gozo harbour was very small and it was still quite windy.  So we decided to
-keep going to the main island of Malta, anchoring in Melleha bay which was quite large and protected.
+and recreational boats going every which way.  The anchorage in the Gozo harbour was very small and it was still quite windy.  So we decided to
+keep going to the main island of Malta, anchoring in Mellieha Bay which was quite large and protected.
 
 {{< figure src="IMG_4104.jpg" alt="map" caption="All the water coming over the deck left this salt on the table" >}}
 

@@ -3,7 +3,7 @@ date = '2026-08-12T15:20:03+02:00'
 draft = false 
 title = 'Solar Eclipse in Mallorca'
 description = "Solar Eclipse in Mallorca"
-tags = ["sightseeing", "mediterranean", "malta", "mdina"]
+tags = ["sightseeing", "mediterranean", "spain", "mallorca", "eclipse"]
 categories = ["Travel"]
 showToc = true
 TocOpen = false
@@ -32,14 +32,14 @@ sun with solar glasses.  It was only just before totality that there was a notic
 totality happened and we saw a dark disk with the corona around it.  The sky wasn't perfectly clear, but we still had an excellent
 view.  Meanwhile there was a lot of cheering and horn blowing from the neighboring boats.
 
-Unfortunately, the eclipse was restively short, and after a minute the sun peeked out again.  By now it was about 10 minutes to sunset and we
+Unfortunately, the eclipse was relatively short, and after a minute the sun peeked out again.  By now it was about 10 minutes to sunset and we
 had the very odd sight of a crescent sun sinking below the horizon.  We turned on the engine and navigation lights and headed east along the north 
-coast of Mallorca.  This happened to be the second night of the Persiad Meteor shower and conditions with a new moon should have been excellent, but 
+coast of Mallorca.  This happened to be the second night of the Perseid Meteor Shower and conditions with a new moon should have been excellent, but 
 it was a bit of a bust with just a few meteor streaks now and then (though we did see one fireball).
 
 {{< map lat="39.566" lng="2.342" zoom="13" title="Eclipse Viewing location" caption="Eclipse Viewing location" />}}
 
-{{< figure src="IMG_3699.jpg" alt="map" caption="near Palma" >}}
+{{< figure src="IMG_3699.jpg" alt="map" caption="Near Palma" >}}
 
 {{< figure src="IMG_3711.jpg" alt="map" caption="Summer Sailing" >}}
 

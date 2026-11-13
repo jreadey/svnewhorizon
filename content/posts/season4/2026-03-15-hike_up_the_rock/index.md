@@ -33,7 +33,7 @@ to feed them (we learned later you were not supposed to do that).  The store onl
 
 {{< figure src="IMG_3371.jpg" alt="map" caption="Map at park entrance" >}}
 
-{{< figure src="IMG_0580.jpg" alt="map" caption="Slowly we rosed above the downtown buildings" >}}
+{{< figure src="IMG_0580.jpg" alt="map" caption="Slowly we rose above the downtown buildings" >}}
 
 {{< figure src="IMG_0583.jpg" alt="map" caption="Touring the tunnels" >}}
 
@@ -57,7 +57,7 @@ to feed them (we learned later you were not supposed to do that).  The store onl
 
 {{< figure src="IMG_3470.jpg" alt="map" caption="Back in the city - time for some refreshments!" >}}
 
-Late we had another walk to the far south point of Gibraltar.  We were hoping to visit the Neanderthal Caves,
+Later we had another walk to the far south point of Gibraltar.  We were hoping to visit the Neanderthal Caves,
 but it turned out that only a very few people each year are allowed to visit.  The best we could do was this
 long range view from the road...
 

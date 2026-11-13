@@ -1,0 +1,31 @@
+{
+  "start": {
+    "time": "2026-04-26T12:18:51Z",
+    "lat": 41.36667,
+    "lon": 2.18843
+  },
+  "end": {
+    "time": "2026-04-29T13:53:46Z",
+    "lat": 43.21397,
+    "lon": 5.53533
+  },
+  "passage_hours": 73.58,
+  "distance_nm": 205.3,
+  "straight_line_nm": 185.4,
+  "avg_speed_kts": 2.8,
+  "avg_speed_underway_kts": 2.8,
+  "status_breakdown": [
+    {
+      "status": "Sailing",
+      "hours": 62.34,
+      "percent": 84.7,
+      "color": "#1a9850"
+    },
+    {
+      "status": "Motoring",
+      "hours": 11.24,
+      "percent": 15.3,
+      "color": "#2166ac"
+    }
+  ]
+}

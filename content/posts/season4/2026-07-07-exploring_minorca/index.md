@@ -3,7 +3,7 @@ date = '2026-06-30T15:20:03+02:00'
 draft = false 
 title = 'Exploring Minorca'
 description = "Emily and her friend come visit as we sail in Minorca"
-tags = ["mediterranean", "france", "corsica"]
+tags = ["mediterranean", "spain", "minorca"]
 categories = ["Travel"]
 showToc = true
 TocOpen = false
@@ -17,8 +17,8 @@ TocOpen = false
 
 After our passage from Corsica we arrived in the port town of Mahon (Mao), Minorca.  
 Emily and her friend flew in from Barcelona to stay on the boat with us for a few days. 
-We docked the boat on a floating marina by the the island of del Rei.  The small island
-in the middle of the harbor use to be an army base and hospital, but now was a park and 
+We docked the boat on a floating marina by the island of del Rei.  The small island
+in the middle of the harbor used to be an army base and hospital, but is now a park and 
 museum.  From Mahon we sailed to the SE corner of Minorca to anchor in a small bay 
 (strategically located near a day resort Emily and Xenia wanted to check out).
 We spent a few days sunbathing, swimming, paddle boarding as well as trying out some of the nearby restaurants.
@@ -48,12 +48,12 @@ meet up with our next round of guests who were arriving in Palma.
 
 {{< figure src="IMG_3111.jpg" alt="map" caption="Paddle boarding" >}}
 
-{{< figure src="IMG_3116.jpg" alt="map" caption="playing chess" >}}
+{{< figure src="IMG_3116.jpg" alt="map" caption="Playing chess" >}}
 
 
 {{< figure src="IMG_3128.jpg" alt="map" caption="Emily and Xenia showing off their dance moves" >}}
 
-{{< figure src="IMG_3140.jpg" alt="map" caption="time for some lunch" >}}
+{{< figure src="IMG_3140.jpg" alt="map" caption="Time for some lunch" >}}
 
 {{< figure src="IMG_3118.jpg" alt="map" caption="Off on the dinghy" >}}
 

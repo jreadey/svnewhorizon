@@ -1,8 +1,8 @@
 +++
 date = '2026-07-23T15:20:03+02:00'
 draft = false 
-title = 'Visiting Oceanigrafic Valencia'
-description = "Visiting Oceanigrafic Valencia"
+title = 'Visiting Oceanografic Valencia'
+description = "Visiting Oceanografic Valencia"
 tags = ["sightseeing", "mediterranean", "spain", "valencia"]
 categories = ["Travel"]
 showToc = true
@@ -10,16 +10,16 @@ TocOpen = false
 
 [cover]
     image = "IMG_3492.jpg" 
-    alt = "Oceanigrafic Valencia"
-    caption = "Oceanigrafic Valencia"
+    alt = "Oceanografic Valencia"
+    caption = "Oceanografic Valencia"
     relative = true # Tells PaperMod to look inside the current post folder
 +++
 
-{{< map lat="39.45283" lng="-0.34752" zoom="13" title="Oceanigrafic" caption="Oceanigrafic" />}}
+{{< map lat="39.45283" lng="-0.34752" zoom="13" title="Oceanografic" caption="Oceanografic" />}}
 
-As a welcome break from boat work, we had a visit to the [Oceanigrafic Valencia](https://www.oceanografic.org/en/),
+As a welcome break from boat work, we had a visit to the [Oceanografic Valencia](https://www.oceanografic.org/en/),
 the largest aquarium in Europe.  It was a really hot day, but fortunately much of the time we spent below ground
-looking at the marina animals in huge surround tanks.  
+looking at the marine animals in huge surround tanks.  
 
 
 {{< figure src="IMG_3496.jpg" alt="map" caption="Watching or being watched?" >}}
