@@ -1,6 +1,6 @@
 ---
 title: "Season 3: Holland to Gibraltar"
-description: "Exploring Hollands inland waterways, the Channel Islands, Spain and Portugal"
+description: "Exploring Hollands inland waterways, the Channel Islands and then crossing the Bay of Biscay to Spain and Portugal.  Finally we arrive in Gibraltar which will be our berth for the off season."
 cover:
   image: "season3_cover.jpg" # Optional section cover photo
 ---

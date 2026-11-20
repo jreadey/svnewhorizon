@@ -1,15 +1,29 @@
 {{- /*
   Custom override of the theme's post_nav_links partial.
 
-  The theme's own version uses Pages.Next/Pages.Prev on site.RegularPages,
-  which on this site comes out backwards (clicking "prev" lands on a
-  *newer* post, "next" on an *older* one). Rather than depend on that
-  collection's ordering, sort explicitly by date ascending and walk to the
-  immediate neighbor on each side, so Previous always means "the post
-  before this one chronologically" and Next always means "the post after".
+  Blog posts (Type in site.Params.mainSections, i.e. "posts"): the theme's
+  own version uses Pages.Next/Pages.Prev on site.RegularPages, which on
+  this site comes out backwards (clicking "prev" lands on a *newer* post,
+  "next" on an *older* one). Rather than depend on that collection's
+  ordering, sort explicitly by date ascending and walk to the immediate
+  neighbor on each side, so Previous always means "the post before this
+  one chronologically" and Next always means "the post after".
+
+  Everything else (e.g. Boat section pages): those aren't a date-ordered
+  narrative, so instead walk the current page's siblings (.Parent.RegularPages,
+  which already sorts by Weight the same way the section's own list page
+  does) and find the neighbor on each side by position, not date.
 */ -}}
-{{- $pages := where site.RegularPages "Type" "in" site.Params.mainSections -}}
-{{- $pages = $pages.ByDate -}}
+{{- $isBlogPost := in site.Params.mainSections .Type -}}
+{{- $pages := slice -}}
+{{- if $isBlogPost -}}
+  {{- $pages = where site.RegularPages "Type" "in" site.Params.mainSections -}}
+  {{- $pages = $pages.ByDate -}}
+{{- else -}}
+  {{- with .Parent -}}
+    {{- $pages = .RegularPages -}}
+  {{- end -}}
+{{- end -}}
 {{- $index := -1 -}}
 {{- range $i, $p := $pages -}}
   {{- if eq $p $ -}}{{- $index = $i -}}{{- end -}}

@@ -1,0 +1,24 @@
+{{- define "main" }}
+<article class="post-single">
+  <header class="post-header">
+    {{- partial "breadcrumbs.html" . }}
+    <h1 class="post-title">{{ .Title }}</h1>
+    <div class="post-description">
+      Live position of New Horizon, via <a href="https://www.vesselfinder.com/vessels/details/368298120" target="_blank" rel="noopener">VesselFinder</a>.
+    </div>
+  </header>
+
+  <div id="vesselfinder-map" style="margin-top: 20px; border: 1px solid var(--border); border-radius: var(--radius); overflow: hidden;">
+    <script type="text/javascript">
+      // Map appearance
+      var width = "100%";
+      var height = "600";
+      var names = true;         // always show the ship name
+      // Single ship tracking
+      var mmsi = "368298120";   // New Horizon
+      var show_track = true;    // show the last 24 hours of track
+    </script>
+    <script type="text/javascript" src="https://www.vesselfinder.com/aismap.js"></script>
+  </div>
+</article>
+{{- end }}

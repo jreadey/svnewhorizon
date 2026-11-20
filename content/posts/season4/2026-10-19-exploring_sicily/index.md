@@ -81,7 +81,7 @@ another ancient city of Nexos.
 
 {{< figure src="IMG_5442.jpg" alt="map" caption="Taormina had a sub too" >}}
 
-{{< figure src="IMG_5379.jpg" alt="map" caption="Joys of boating - fixing the toilet" >}}
+{{< figure src="IMG_5379.jpg" alt="map" caption="Taromina from the water" >}}
 
 {{< figure src="IMG_5511.jpg" alt="map" caption="We took the dinghy to explore the cliffs below Taormina" >}}
 
@@ -121,8 +121,6 @@ top.  It was quite a different scene from the warm town below - much colder with
 {{< figure src="IMG_5555.jpg" alt="map" caption="End of the trail (for us at least)" >}}
 
 {{< figure src="IMG_4847.jpg" alt="map" caption="Our group heading back to the 4x4s" >}}
-{{< figure src="IMG_4872.jpg" alt="map" caption="On the way back to town we stopped at this gorge: Motta Camastra" >}}
-
 
 {{< figure src="IMG_5568.jpg" alt="map" caption="Walking in the strong current was quite challenging" >}}
 

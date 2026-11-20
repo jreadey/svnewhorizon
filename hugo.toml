@@ -19,9 +19,18 @@ defaultContentLanguageInSubdir = false
     name = "Posts"
     url = "posts"
 
+  [[params.profileMode.buttons]]
+    name = "Boat"
+    url = "boat"
+
+  [[params.profileMode.buttons]]
+    name = "Location"
+    url = "location"
+
 [params]
   ShowBreadCrumbs = true
   ShowPostNavLinks = true
+  mainSections = ["posts"]
 
 [params.assets]
   favicon = "/favicon.ico"

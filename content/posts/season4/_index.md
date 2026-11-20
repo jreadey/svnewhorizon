@@ -1,6 +1,6 @@
 ---
 title: 'Season 4: Western Mediterranean'
-description: "Exploring the western Mediterranean (Spain, France, and Italy)"
+description: "Exploring the western Mediterranean (Spain, France, and Italy) with a wintering stop in Tunisia."
 cover:
   image: "season4_cover.jpg" # Optional section cover photo
 ---

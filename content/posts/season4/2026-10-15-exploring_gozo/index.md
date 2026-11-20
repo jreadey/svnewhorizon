@@ -43,7 +43,6 @@ overlooking the city.
 {{< figure src="IMG_4431.jpg" alt="map" caption="At the Citadel" >}}
 {{< figure src="IMG_4338.jpg" alt="map" caption="View from the Citadel wall" >}}
 {{< figure src="IMG_4449.jpg" alt="map" caption="Gozo church" >}}
-{{< figure src="IMG_4429.jpg" alt="map" caption="View of the church" >}}
 
  
 

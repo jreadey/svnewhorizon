@@ -1,6 +1,6 @@
 ---
 title: "Season 1: Outfitting & Setting sail to The Baltic"
-description: "Outfitting our new vessel n La Rochelle, France and cruising the Baltic."
+description: "This section covers our initial outfitting phase, system commissioning, and our inaugural voyage from France, to England, across to the Baltic Sea and finally returning to England for the winter season."
 cover:
   image: "season1_cover.jpeg" # Optional section cover photo
 ---

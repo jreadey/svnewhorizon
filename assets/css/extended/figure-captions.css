@@ -1,0 +1,11 @@
+/* Larger, centered captions for the figure shortcode (layouts/shortcodes
+   via the theme's built-in {{< figure >}}), overriding the theme default
+   of 14px left-aligned text in md-content.css. */
+.md-content figure > figcaption,
+.md-content figure > figcaption > p {
+    text-align: center;
+}
+
+.md-content figure > figcaption > p {
+    font-size: 17px;
+}

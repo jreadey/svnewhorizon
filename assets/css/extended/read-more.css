@@ -1,0 +1,14 @@
+/* "Read more »" affordance on post list cards (see layouts/list.html).
+   Purely visual -- the whole card is already a click target via the
+   theme's .entry-link overlay, this just makes that obvious. */
+.entry-read-more {
+    margin: 4px 0 0;
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--primary);
+}
+
+.post-entry:hover .entry-read-more,
+.post-entry:focus-within .entry-read-more {
+    text-decoration: underline;
+}

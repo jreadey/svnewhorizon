@@ -35,7 +35,7 @@ all the activity.
 From Cannes, we anchored outside Antibes, a town that has a well-preserved medieval section.
 Too bad the Picasso museum was closed for updating, but there was a museum of ancient Greek artifacts and a nice farmer's market.
 
-Next we sailed to our final stop on the Côte d'Azur: Villefranche-sur-Mer, a small town just east of Nice.  VilleFranche was a perfect 
+Finally, we sailed to our final stop on the Côte d'Azur: Villefranche-sur-Mer, a small town just east of Nice.  VilleFranche was a perfect 
 place to stay since the harbour had a nice anchorage, there was a dinghy dock on the town waterfront, and it was an easy bus (or train) 
 ride to Nice (and other places we planned to visit, like Monaco).
 
@@ -55,7 +55,7 @@ decided to just assume our stop by the French customs was our official entry int
 {{< figure src="IMG_4042.jpg" alt="map" caption="Anchorage at Porquerolles" >}}
 {{< figure src="IMG_1862.jpg" alt="map" caption="Bike Rental in Porquerolles" >}}
 {{< figure src="IMG_4036.jpg" alt="map" caption="Outdoor cafe" >}}
-{{< figure src="IMG_4047.jpg" alt="map" caption="Anchorage at night" >}}
+{{< figure src="IMG_4047.jpg" alt="map" caption="Anchorage at sunset" >}}
 {{< figure src="IMG_1883.jpg" alt="map" caption="French customs" >}}
 
 {{< figure src="IMG_1895.jpg" alt="map" caption="Landing on Pampelonne Beach" >}}
@@ -66,7 +66,7 @@ decided to just assume our stop by the French customs was our official entry int
 {{< figure src="IMG_4106.jpg" alt="map" caption="At a mooring buoy in Cannes" >}}
 {{< figure src="IMG_4090.jpg" alt="map" caption="Found a spot to park the dinghy in Cannes" >}}
 {{< figure src="IMG_1981.jpg" alt="map" caption="Everyone wanted their picture taken by the Cannes sign" >}}
-{{< figure src="IMG_1996.jpg" alt="map" caption="Finding a place for lunch was a challenge" >}}
+{{< figure src="IMG_1996.jpg" alt="map" caption="Finding a place for lunch was a challenge during the Cannes Film Festival" >}}
 {{< figure src="IMG_2001.jpg" alt="map" caption="A popular activity was waiting by a hotel for a celeb to appear" >}}
 
 {{< figure src="IMG_2115.jpg" alt="map" caption="Walking along the old sea wall of Antibes" >}}
