@@ -29,7 +29,7 @@ a job as with the code zero and the North Sails shop was able to fix it with jus
 ready to go and the North Sails folks were kind enough to drop it off at the dock (we used a halyard and winch to haul it on deck).
 
 The other project we wanted to get done while in Valencia is installation of additional solar panels.  We bought the boat 
-with the integrated solar option (flexible panels installed on the coach roof).  Fountain Pajot claims a max of 1700 W, but 
+with the integrated solar option (flexible panels installed on the coach roof).  Fountaine Pajot claims a max of 1700 W, but 
 in practice we rarely saw more than 800 W.  With three refrigerators, electric oven and hob, washer/dryer, and dishwasher, our
 electrical consumption greatly outpaced the solar production.  Our lithium batteries could store 27 kWh of power, and with the integrel 
 generators we could charge them at 6 kW, but if we had any time between using the engine (sailing or at anchorage), after 3 or 4 days

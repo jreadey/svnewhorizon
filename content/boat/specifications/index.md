@@ -25,7 +25,7 @@ Here is some technical data on the Tanna 47:
 | Air Draft           | 70.75 ft / 21.56 m                  |
 | Engines             | Volvo D2-60 x2                      |
 | Water               | 185 g / 700 L                       |
-| Fule                | 248 g / 900 L                       |
+| Fuel                | 248 g / 900 L                       |
 | Construction        | resin-infused balsa core            |
 | Model Years         | 2021 - 2026 (over 260 hulls)         |
 | Builder             | Fountaine Pajot                     |

@@ -1,6 +1,6 @@
 ---
 title: "Season 3: Holland to Gibraltar"
-description: "Exploring Hollands inland waterways, the Channel Islands and then crossing the Bay of Biscay to Spain and Portugal.  Finally we arrive in Gibraltar which will be our berth for the off season."
+description: "Exploring Holland's inland waterways, the Channel Islands and then crossing the Bay of Biscay to Spain and Portugal.  Finally we arrive in Gibraltar which will be our berth for the off season."
 cover:
   image: "season3_cover.jpg" # Optional section cover photo
 ---
@@ -8,7 +8,7 @@ cover:
 Welcome to **Season 3** (Apr-Nov 2025)! 
 
 This section covers our Season 3 adventures.  Returning to our winter base in The Netherlands, we first
-explore Holland's inland waters, then head to the Channel Islands (with brief stops in Belgium and France along the way), before setting off from Falmouth England to cross the Bay of Biscay to arrive in Spain's Galicia region.  From there we sail down the Portugese coast until (avoiding the Orcas) we arrive at Gibraltar, the gateway to the Mediterranean.  
+explore Holland's inland waters, then head to the Channel Islands (with brief stops in Belgium and France along the way), before setting off from Falmouth, England to cross the Bay of Biscay to arrive in Spain's Galicia region.  From there we sail down the Portuguese coast until (avoiding the Orcas) we arrive at Gibraltar, the gateway to the Mediterranean.  
 
 
 {{< map file="route.gpx" caption="route Apr 2025 to Nov 2025" />}}
