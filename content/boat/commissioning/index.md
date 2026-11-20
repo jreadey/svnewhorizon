@@ -60,15 +60,15 @@ own there was a chance we wouldn't have a spot to come back to!  So other than t
 out in the open ocean.
 
 Anyway, it was a busy six weeks, but finally it was time to cast off.  Our plan for the first season was to head north to England and
-then travel deep into the Baltic Sea.  Pretty ambitious for two catamaran newbies!  Check out [Season1](../posts/season1) to learn how we fared.
+then travel deep into the Baltic Sea.  Pretty ambitious for two catamaran newbies!  Check out [Season1](../../posts/season1) to learn how we fared.
 
 {{< figure src="IMG_0165.jpg" alt="map" caption="Voila! Et là, tout fonctionne tout simplement" >}}
-{{< figure src="IMG_0193.jpg" alt="map" caption="Our fans got installed in the wrong place" >}}
-{{< figure src="IMG_0214.jpg" alt="map" caption="Checking out the engines" >}}
-{{< figure src="IMG_1179.jpg" alt="map" caption="Anchor chain and swivel - the anchor bay was never this clean again" >}}
+{{< figure src="IMG_0193.jpg" alt="map" caption="Our fans got installed in the wrong place!" >}}
+{{< figure src="IMG_0214.jpg" alt="map" caption="Boat deep dive" >}}
+{{< figure src="IMG_1179.jpg" alt="map" caption="Anchor chain and swivel - the anchor bay was never this clean again!" >}}
 {{< figure src="IMG_1210.jpg" alt="map" caption="The water pump is a critical piece of equipment" >}}
 {{< figure src="IMG_1217.jpg" alt="map" caption="In addition to sailing instruction, Thomas installed these shields for the fender lines" >}}
-{{< figure src="IMG_1245.jpg" alt="map" caption="Folding prop with anodes" >}}
+{{< figure src="IMG_1245.jpg" alt="map" caption="Folding prop with anodes - later we installed rope cutters" >}}
 {{< figure src="IMG_1247.jpg" alt="map" caption="Underwater lights which at best cast a dim glow" >}}
 {{< figure src="IMG_1249.jpg" alt="map" caption="Grounding plate - disperses stray current to water" >}}
 {{< figure src="IMG_1250.jpg" alt="map" caption="Underwater hatch for access once your boat is capsized!" >}}

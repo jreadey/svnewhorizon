@@ -231,6 +231,7 @@ Fountaine Pajot to make sure the vessel was ready to cast off.
 {{< figure src="IMG_1192.jpg" alt="flags" caption="After a night sleeping on bare mattress, we now had some bedding" >}}
 {{< figure src="IMG_1219.jpg" alt="flags" caption="Our dinghy has arrived" >}}
 {{< figure src="IMG_1302.jpg" alt="flags" caption="One of the cabin fire extinguishers" >}}
+{{< figure src="IMG_5778.jpg" alt="flags" caption="Engine room halogen fire extinguisher" >}}
 {{< figure src="IMG_1365.jpg" alt="flags" caption="We got the Steiner binoculars but without the heading gizmo" >}}
 {{< figure src="IMG_1389.jpg" alt="flags" caption="Figuring out what line to get" >}}
 {{< figure src="IMG_1433.jpg" alt="flags" caption="We looked at getting a passarelle (gangplank), but it takes up a lot of space and we wouldn't actually need it until we got to the Med" >}}
